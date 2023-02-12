@@ -21,6 +21,7 @@ public class MainView extends HorizontalLayout {
         sayHello.addClickListener(e -> {
             Notification.show("Hello " + name.getValue());
         });
+        // a comment
         sayHello.addClickShortcut(Key.ENTER);
 
         setMargin(true);
